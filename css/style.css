@@ -5,7 +5,6 @@ body{
 
 .grids{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     display: grid;
     gap: 60px;
     justify-content: center;
@@ -54,6 +53,7 @@ main{
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
 }
 
 .descricao{
@@ -92,7 +92,7 @@ main{
     text-transform: uppercase;
     padding: 40px;
     display: flex;
-    align-content: center;
+    align-items: center;
     text-align: right;
 
 }
@@ -104,6 +104,7 @@ main{
 
 .vantagens {
     padding: 40px;
+    background-color: #fff;
 }
 
 .vantagens-item{
@@ -118,9 +119,11 @@ main{
 }
 
 /* Rodapé */
-footer{
+footer {
     font-size: 22px;
     padding: 30px;
     text-align: center;
     background-color: white;
+
 }
+
